@@ -8,7 +8,7 @@ Three small projects on public datasets, built with Python, pandas and scikit-le
 | `2_income_prediction.ipynb` | Full scikit-learn pipeline, model comparison, honest evaluation. Random forest, test ROC AUC 0.92 | UCI Adult |
 | `3_data_quality_report.ipynb` | Reusable function that audits any CSV: missing values, duplicates, outliers, text issues | Palmer Penguins |
 
-Data files are included so the notebooks run as they are:
+Titanic and Penguins data files are included. The Adult data is downloaded from the UCI repository when the notebook runs.
 `pip install pandas scikit-learn matplotlib jupyter`, then open any notebook.
 
 Output of project 1: `titanic_clean.csv`.
